@@ -53,7 +53,7 @@ const PhotoDetails = ({ photoId }) => {
                     By: {user.username} ({user.name})
                   </div>
                   <a href={`mailto:${user.email}`}>{user.email}</a>
-                  <a href={`http://${user.website}`}>{user.website}</a>
+                  <a href={`https://${user.website}`}>{user.website}</a>
                 </div>
               )}
             </div>
