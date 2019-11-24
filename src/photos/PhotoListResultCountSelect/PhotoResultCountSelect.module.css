@@ -1,0 +1,10 @@
+.resultCountSelectContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resultCountSelectContainer>label {
+  margin-right: 0.5rem;
+  font-family: var(--roboto);
+}

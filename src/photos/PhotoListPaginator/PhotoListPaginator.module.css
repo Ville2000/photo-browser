@@ -1,0 +1,27 @@
+.photoListPaginator {
+  display: flex;
+  align-items: center;
+  width: 12rem;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.photoListPaginator>div {
+  font-family: var(--roboto);
+}
+
+.photoListPaginator>button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.5em;
+}
+
+.photoListPaginator>button:hover {
+  background-color: rgb(235, 235, 235);
+}
